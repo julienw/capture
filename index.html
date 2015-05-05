@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="capture.js" defer></script>
+  </head>
+  <body>
+    <div class="rotate-container">
+      <div class="mirror-container">
+        <video class="captured-video"></video>
+      </div>
+    </div>
+    <form class="effects-form">
+      <fieldset>
+        <legend>Clockwise rotation</legend>
+        <label><input type="radio" name="rotate" value="no" class="form-rotate-no" checked> No rotation</label>
+        <label><input type="radio" name="rotate" value="90" class="form-rotate-90"> 90°</label>
+        <label><input type="radio" name="rotate" value="180" class="form-rotate-180"> 180°</label>
+        <label><input type="radio" name="rotate" value="270" class="form-rotate-270"> 270°</label>
+      </fieldset>
+      <fieldset>
+        <legend>Mirroring</legend>
+        <label><input type="checkbox" name="mirror-horizontal" class="form-mirror-horizontal"> Horizontal</label>
+        <label><input type="checkbox" name="mirror-vertical" class="form-mirror-vertical"> Vertical</label>
+      </fieldset>
+    </form>
+  </body>
+</html>

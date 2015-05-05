@@ -1,0 +1,27 @@
+body {
+  display: flex;
+}
+
+.effect-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.effect-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.effect-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.effect-mirror-horizontal {
+  transform: scale(-1, 1);
+}
+
+.effect-mirror-vertical {
+  transform: scale(1, -1);
+}
+
+.effect-mirror-horizontal.effect-mirror-vertical {
+  transform: scale(-1, -1);
+}
