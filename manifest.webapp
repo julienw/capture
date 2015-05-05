@@ -1,0 +1,14 @@
+{
+  "name": "Capture",
+  "description": "Capture the camera",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Julien Wajsberg",
+    "url": "https://github.com/julienw/capture"
+  },
+  "permissions": {
+    "video-capture":{}
+  },
+  "orientation": "default"
+}
